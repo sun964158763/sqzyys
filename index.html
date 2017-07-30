@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>周姨月嫂</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="关键字" />
+    <!--theme-style-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css"  />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default margin-0">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand padding-0"><img src="./images/logo.png" alt="周姨月嫂" class="navbar-brand padding-0"></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar navbar-nav navbar-right">
+                <li class="active">
+                    <a href="#">首页</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">关于周姨</a>
+                    <ul class="dropdown-menu dropdown-menu-left">
+                        <li><a href="#">公司简介</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a  class="dropdown-toggle" data-toggle="dropdown" href="#">服务内容</a>
+                    <ul class="dropdown-menu dropdown-menu-left nav">
+                        <li><a href="#">月嫂</a></li>
+                        <li><a href="#">育婴师</a></li>
+                        <li><a href="#">催乳师</a></li>
+                        <li><a href="#">家政服务</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a  class="dropdown-toggle" data-toggle="dropdown" href="#">招生招聘</a>
+                    <ul class="dropdown-menu dropdown-menu-left">
+                        <li><a href="#">月嫂</a></li>
+                        <li><a href="#">育婴师</a></li>
+                        <li><a href="#">催乳师</a></li>
+                        <li><a href="#">家政服务</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#">欢迎加盟</a></li>
+                <li class="dropdown"><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<script>
+    $('.dropdown').mouseover(function() {
+        $(this).addClass('open');
+    }).mouseout(function() {
+        $(this).removeClass('open');
+    });
+</script>
+<div class="clearfix"> </div>
+<!--<div class="header">
+    <div class="container">
+        <img src="./images/logo.png" class="pull-left">
+        <div class="top-nav">
+            <ul class="nav nav-pills pull-right">
+                <li class="active">
+                    <a href="#">首页</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">关于周姨</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">公司简介</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a  class="dropdown-toggle" data-toggle="dropdown" href="#">服务内容</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">月嫂</a></li>
+                        <li><a href="#">育婴师</a></li>
+                        <li><a href="#">催乳师</a></li>
+                        <li><a href="#">家政服务</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a  class="dropdown-toggle" data-toggle="dropdown" href="#">招生招聘</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">月嫂</a></li>
+                        <li><a href="#">育婴师</a></li>
+                        <li><a href="#">催乳师</a></li>
+                        <li><a href="#">家政服务</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">欢迎加盟</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>-->
+<hr class="dividing-line margin-0"/>
+<!-- 轮播 start -->
+<div id="myCarousel" class="container-fluid carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="./images/home_top_carousel01.jpg" alt="First slide">
+        </div>
+        <div class="item">
+            <img src="./images/home_top_carousel02.jpg" alt="Second slide">
+        </div>
+        <div class="item">
+            <img src="./images/home_top_carousel03.jpg" alt="Third slide">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+
+
+    <a class="carousel-control left" href="#myCarousel"
+       data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel"
+       data-slide="next">&rsaquo;</a>
+</div>
+<!--这种轮播与下面滚动冲突-->
+<!--<div class="flexslider">
+    <ul class="slides">
+        <li><img src="./images/home_top_carousel01.jpg" /></li>
+        <li><img src="./images/home_top_carousel02.jpg" /></li>
+        <li><img src="./images/home_top_carousel03.jpg" /></li>
+    </ul>
+</div>
+<script>
+    $(function() {
+        $(".flexslider").flexslider();
+    });
+</script>-->
+<!-- 轮播 end -->
+
+<!-- 行业信息、公司动态 start -->
+<div class="container company-info">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="list-group">
+                <a href="#" class="list-group-item active">
+                    <h4 class="list-group-item-heading">行业新闻</h4>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">列表标题</h4>
+                    <p class="list-group-item-text">这个是列表内容</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">列表标题</h4>
+                    <p class="list-group-item-text">这个是列表内容</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">列表标题</h4>
+                    <p class="list-group-item-text">这个是列表内容</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">列表标题</h4>
+                    <p class="list-group-item-text">这个是列表内容</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="list-group">
+                <a href="#" class="list-group-item active">
+                    <h4 class="list-group-item-heading">公司动态</h4>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">列表标题</h4>
+                    <p class="list-group-item-text">这个是列表内容</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">列表标题</h4>
+                    <p class="list-group-item-text">这个是列表内容</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">列表标题</h4>
+                    <p class="list-group-item-text">这个是列表内容</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">列表标题</h4>
+                    <p class="list-group-item-text">这个是列表内容</p>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 行业信息、公司动态 end -->
+
+<!-- 月嫂风范 start -->
+<div class="container">
+    <div class="text-center"><h1>月嫂风范</h1></div>
+    <ul id="flexiselDemo1" >
+        <li>
+            <a href="#"><img src="images/t1.jpg" alt="" /></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t2.jpg" alt=""/></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t3.jpg" alt=""/></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t4.jpg" alt=""/></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t2.jpg" alt=""/></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t3.jpg" alt=""/></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t1.jpg" alt="" /></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t2.jpg" alt=""/></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t3.jpg" alt=""/></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t4.jpg" alt=""/></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t2.jpg" alt=""/></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/t3.jpg" alt=""/></a>
+        </li>
+    </ul>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $("#flexiselDemo1").flexisel({
+                visibleItems: 5,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 3000,
+                pauseOnHover:true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint:480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint:640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint:768,
+                        visibleItems: 3
+                    }
+                }
+            });
+        });
+    </script>
+</div>
+<!-- 月嫂风范 end -->
+
+<!-- 公司荣誉 start -->
+<div class="container">
+    <div class="container text-center"><h1> 公司荣誉</h1></div>
+    <div class="col-md-4 col1 gallery-item">
+        <a href="images/ga3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+            <figure class="effect-bubba">
+                <img class="img-responsive" src="images/ga3.jpg" alt=""/>
+                <figcaption>
+                    <h4 class="gal">Enimet pulvinar posuere</h4>
+                    <p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>
+                </figcaption>
+            </figure>
+        </a>
+    </div>
+    <div class="col-md-4 col1 gallery-item">
+        <a href="images/ga4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+            <figure class="effect-bubba">
+                <img class="img-responsive" src="images/ga4.jpg" alt=""/>
+                <figcaption>
+                    <h4 class="gal">Enimet pulvinar posuere</h4>
+                    <p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>
+                </figcaption>
+            </figure>
+        </a>
+    </div>
+    <div class="col-md-4 col1 gallery-item">
+        <a href="images/ga1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+            <figure class="effect-bubba">
+                <img class="img-responsive" src="images/ga1.jpg" alt=""/>
+                <figcaption>
+                    <h4 class="gal">张阿姨</h4>
+                    <p class="gal1">专注月嫂护理6年,专注月嫂护理6年,专注月嫂护理6年,专注月嫂护理6年,专注月嫂护理6年</p>
+                </figcaption>
+            </figure>
+        </a>
+    </div>
+    <div class="col-md-4 col1 gallery-item">
+        <a href="images/ga3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+            <figure class="effect-bubba">
+                <img class="img-responsive" src="images/ga3.jpg" alt=""/>
+                <figcaption>
+                    <h4 class="gal">Enimet pulvinar posuere</h4>
+                    <p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>
+                </figcaption>
+            </figure>
+        </a>
+    </div>
+    <div class="col-md-4 col1 gallery-item">
+        <a href="images/ga4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+            <figure class="effect-bubba">
+                <img class="img-responsive" src="images/ga4.jpg" alt=""/>
+                <figcaption>
+                    <h4 class="gal">Enimet pulvinar posuere</h4>
+                    <p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>
+                </figcaption>
+            </figure>
+        </a>
+    </div>
+    <div class="col-md-4 col1 gallery-item">
+        <a href="images/ga1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+            <figure class="effect-bubba">
+                <img class="img-responsive" src="images/ga1.jpg" alt=""/>
+                <figcaption>
+                    <h4 class="gal">Enimet pulvinar posuere</h4>
+                    <p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>
+                </figcaption>
+            </figure>
+        </a>
+    </div>
+    <div class="clearfix"> </div>
+</div>
+<!-- 公司荣誉 end -->
+
+<!-- 底部信息块 start -->
+<div class="container">
+    底部信息快
+</div>
+<!-- 底部信息块 end -->
+
+<!-- footer start -->
+<hr class="dividing-line"/>
+<div class="container">
+    底部栏内容
+    <p>版权所有：Copyright © 2004-2016 宿迁周姨月嫂</p>
+    <p>京ICP备09085648号-5</p>
+</div>
+<!-- footer end -->
+</body>
+</html>
